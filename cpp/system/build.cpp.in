@@ -1,0 +1,27 @@
+#include "build.hpp"
+
+using namespace build;
+
+#ifdef ARCH_X86
+CpuInfo CpuInfo::get() {
+	CpuInfo r;
+
+#ifdef __SSE4_2__
+	r.has_x86_sse42 = true;
+#endif
+
+#ifdef __AVX512F__
+	r.has_x86_avx512f = true;
+#endif
+
+#ifdef __AVX512BW__
+	r.has_x86_avx512bw = true;
+#endif
+
+	return r;
+}
+#else
+CpuInfo CpuInfo::get() {
+	return CpuInfo();
+}
+#endif

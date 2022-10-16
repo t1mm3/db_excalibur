@@ -1,0 +1,86 @@
+#pragma once
+
+#include <string>
+#include <stdint.h>
+
+#cmakedefine HAS_LIBBACKTRACE
+#cmakedefine HAS_LIBUNWIND
+#cmakedefine HAS_PAPI
+#cmakedefine HAS_LIBNUMA
+#cmakedefine HAS_JEMALLOC
+#cmakedefine HAS_TCMALLOC
+#cmakedefine HAS_NO_SPECIALIZED_MALLOC
+
+#ifdef HAS_LIBBACKTRACE
+#include <${Backtrace_HEADER}>
+#endif
+
+
+
+// Posix
+#cmakedefine HAVE_POSIX_MMAP
+#cmakedefine HAVE_POSIX_SYSCONF
+#cmakedefine HAVE_POSIX_MAP_FIXED
+#cmakedefine HAVE_POSIX_SYSCTL
+
+// Linux
+
+/* Huge pages in mmap() */
+#cmakedefine HAVE_LINUX_MAP_HUGETLB
+#ifdef HAVE_LINUX_MAP_HUGETLB
+#cmakedefine HAVE_LINUX_MAP_HUGE_2MB
+#cmakedefine HAVE_LINUX_MAP_HUGE_1GB
+#endif
+
+#cmakedefine HAVE_LINUX_MADV_HUGEPAGE
+
+#cmakedefine HAVE_LINUX_MAP_POPULATE
+#cmakedefine HAVE_POSIX_MAP_ANONYMOUS
+
+#ifdef HAVE_LINUX_MAP_POPULATE
+#define HAVE_LINUX_MREMAP
+#endif
+
+#cmakedefine HAS_LINUX_cpu_set_t
+#cmakedefine HAVE_LINUX_SYSINFO
+
+typedef int32_t selvector_t;
+
+
+
+// Compiler features
+#cmakedefine HAS_COMPUTED_GOTO
+
+
+#if defined(__x86_64__) || defined(_M_X64)
+#define ARCH_X86
+#elif defined(i386) || defined(__i386__) || defined(__i386) || defined(_M_IX86)
+#define ARCH_X86
+
+#else
+#endif
+
+
+namespace build {
+
+struct CpuInfo {
+	static CpuInfo get();
+
+	bool has_x86_sse42 = false;
+	bool has_x86_avx512f = false;
+	bool has_x86_avx512bw = false;
+};
+
+struct GitMeta {
+	static bool exists();
+	static bool has_uncommitted_changes();
+	static std::string author_name();
+	static std::string author_email();
+	static std::string commit_sha();
+	static std::string commit_date();
+	static std::string commit_subject();
+	static std::string commit_body();
+	static std::string describe();
+};
+
+} /* build */

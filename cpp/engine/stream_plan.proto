@@ -1,0 +1,42 @@
+syntax = "proto3";
+option optimize_for = LITE_RUNTIME;
+package engine.proto;
+
+message Expr {
+  enum Tag {
+    Unknown = 0;
+    Column = 1;
+    Function = 2;
+    Assign = 3;
+    Ascending = 4;
+    Descending = 5;
+  };
+  Tag tag = 1;
+  repeated Expr arguments = 2;
+  string column = 3;
+
+  string function_name = 4;
+  string type = 5;
+};
+
+message Lolepop {
+  enum Tag {
+    Unknown = 0;
+    Scan = 1;
+    Filter = 2;
+    Project = 3;
+    HashJoinProbe = 4;
+    HashJoinCheck = 5;
+    HashJoinGather = 6;
+  };
+
+  Tag tag = 1;
+  repeated Lolepop children = 2;
+  repeated Expr expressions = 3;
+
+  string table = 4;
+};
+
+message StreamPlan {
+  Lolepop root = 1;
+};

@@ -1,0 +1,59 @@
+#pragma once
+
+#include <string>
+#include <unordered_map>
+#include <sstream>
+#include <memory>
+#include <vector>
+
+namespace engine::catalog {
+struct Catalog;
+}
+
+namespace plan {
+struct RelOp;
+}
+
+struct TpchUtils {
+	typedef std::unordered_map<std::string, std::string> TableFileMap;
+
+	static TableFileMap get_files(const std::string& sf);
+	static std::shared_ptr<plan::RelOp> get_query(int n);
+
+	static void create_schema(engine::catalog::Catalog& cat,
+		bool compact = false, const std::string& sf = "");
+
+	static std::vector<int> get_all_queries();
+
+	static std::vector<std::string> get_results(const std::string& sf, int q);
+
+	static std::string get_prefix_directory() {
+		return "@CMAKE_CURRENT_BINARY_DIR@";
+	}
+
+	static std::shared_ptr<plan::RelOp> get_q1(const std::string& shipdate_str = "1998-09-02");
+
+	static std::shared_ptr<plan::RelOp> get_q6(int variant = -1, int year = 1994, int discount = 6, const std::string& _quantity = "24.00");
+
+private:
+	static TableFileMap _files() {
+		return {
+			{"LINEITEM", "lineitem.tbl"},
+			{"NATION", "nation.tbl"},
+			{"REGION", "region.tbl"},
+			{"CUSTOMER", "customer.tbl"},
+			{"PART", "part.tbl"},
+			{"PARTSUPP", "partsupp.tbl"},
+			{"SUPPLIER", "supplier.tbl"},
+			{"ORDERS", "orders.tbl"}
+			};
+	}
+
+	static std::string get_result_directory() {
+		return "@CMAKE_CURRENT_SOURCE_DIR@";
+	}
+
+	static std::string get_generator_script() {
+		return "@CMAKE_CURRENT_BINARY_DIR@/generate_tpch.sh";
+	}
+};

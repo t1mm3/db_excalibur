@@ -1,0 +1,128 @@
+%% Creator: Inkscape 1.0.2 (e86c870879, 2021-01-15, custom), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'arch.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1700.35175474bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.31047536)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.28794872,0.09660987){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}JoinProbe\end{tabular}}}}%
+    \put(0.28794872,0.07190878){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Filter\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{arch.pdf}}%
+    \put(0.28794872,0.15042417){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}JoinGather\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{arch.pdf}}%
+    \put(0.28794872,0.12219443){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}JoinCheck\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{arch.pdf}}%
+    \put(0.28794872,0.23246634){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GroupByAggregate\end{tabular}}}}%
+    \put(0.28794872,0.20423689){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GroupByCheck\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{arch.pdf}}%
+    \put(0.28794872,0.17777111){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}GroupByFindPos\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{arch.pdf}}%
+    \put(0.01583741,0.23992622){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}HashGroupBy\end{tabular}}}}%
+    \put(0.0330017,0.21305807){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}HashJoin\end{tabular}}}}%
+    \put(0.00698887,0.18725114){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Filter\end{tabular}}}}%
+    \put(-0.0011544,0.15704257){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Lineitem\end{tabular}}}}%
+    \put(0.07197616,0.15778815){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Orders\end{tabular}}}}%
+    \put(0.07285163,0.18601305){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Filter\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{arch.pdf}}%
+    \put(0.01343156,0.26563631){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Plan}\end{tabular}}}}%
+    \put(0.45908636,0.26708057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{VOILA}\end{tabular}}}}%
+    \put(0.16596597,0.26539607){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Low-Level Plan}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{arch.pdf}}%
+    \put(0.48990974,0.11793645){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{pos = scan\_pos(morsel)}\end{tabular}}}}%
+    \put(0.48938355,0.10469954){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{|valid = selvalid(pos)}\end{tabular}}}}%
+    \put(0.48977313,0.09119401){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{LOOP |valid:}\end{tabular}}}}%
+    \put(0.50055622,0.06668855){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{EMIT (a)}\end{tabular}}}}%
+    \put(0.50085848,0.05558565){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{pos = scan\_pos(morsel)}\end{tabular}}}}%
+    \put(0.50118142,0.04287561){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{|valid = selvalid(pos)}\end{tabular}}}}%
+    \put(0.46187847,0.13116903){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Scan():\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{arch.pdf}}%
+    \put(0.48803586,0.16136382){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{|pred = seltrue(T.A < 42)}\end{tabular}}}}%
+    \put(0.48842544,0.14785822){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{EMIT (T.A) |pred}\end{tabular}}}}%
+    \put(0.46216184,0.17704386){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Filter(T):\end{tabular}}}}%
+    \put(0.48942171,0.21989943){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{h = hash(T.A)}\end{tabular}}}}%
+    \put(0.48889554,0.20666239){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{write(HT1.\_hash, h)}\end{tabular}}}}%
+    \put(0.48928512,0.19315679){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{write(HT1.A, T.A)}\end{tabular}}}}%
+    \put(0.46390369,0.23469265){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}JoinBuildWrite(T)\end{tabular}}}}%
+    \put(0.50060114,0.07845683){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\inlcode{a = scan(orders.A, pos)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{arch.pdf}}%
+    \put(0.52324606,0.24684472){\color[rgb]{0.94509804,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Pipeline 1\end{tabular}}}}%
+    \put(0.1732666,0.20070725){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Filter\end{tabular}}}}%
+    \put(0.1732666,0.17336005){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ScanLoad\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{arch.pdf}}%
+    \put(0.1732666,0.14689494){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ScanDriver\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{arch.pdf}}%
+    \put(0.1732666,0.22717236){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}JoinBuildWrite\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{arch.pdf}}%
+    \put(0.18109174,0.24747479){\color[rgb]{0.94509804,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Pipeline 1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{arch.pdf}}%
+    \put(0.30186509,0.25021216){\color[rgb]{0.44705882,0.21568627,0.74901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Pipeline 2\end{tabular}}}}%
+    \put(0.72955552,0.26940856){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Virtual Machine}\end{tabular}}}}%
+    \put(0.79126241,0.0338007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Re-optimize Plan\end{tabular}}}}%
+    \put(0.82996078,0.21858618){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Cached?\end{tabular}}}}%
+    \put(0.93392127,0.21963648){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Code\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{arch.pdf}}%
+    \put(0.82058058,0.16132323){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Execute/Interpret\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{arch.pdf}}%
+    \put(0.89977536,0.22683635){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}no\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{arch.pdf}}%
+    \put(0.85831307,0.19772475){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}yes\end{tabular}}}}%
+    \put(0.76269389,0.22662293){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Extract\end{tabular}}}}%
+    \put(0.76286972,0.20745238){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fragments\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{arch.pdf}}%
+    \put(0.73580651,0.11223005){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Re-optimize \end{tabular}}}}%
+    \put(0.73592602,0.09872472){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fragments\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{arch.pdf}}%
+    \put(0.93473503,0.23398825){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Generate\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{arch.pdf}}%
+    \put(0.43193819,0.2930923){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{\emph{Excalibur}}\end{tabular}}}}%
+    \put(0.28794871,0.04809012){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Scan\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

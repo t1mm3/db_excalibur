@@ -1,0 +1,77 @@
+%% Creator: Inkscape 1.0.2 (e86c870879, 2021-01-15, custom), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'assumed_space.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{222.74427759bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.5655963)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{assumed_space.pdf}}%
+    \put(0.37536244,0.19164315){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Good\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{assumed_space.pdf}}%
+    \put(0.03645278,0.49351764){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bad\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{assumed_space.pdf}}%
+    \put(0.68555483,0.45456142){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Good\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{assumed_space.pdf}}%
+    \put(0.50512584,0.38818873){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bad\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{assumed_space.pdf}}%
+    \put(0.778339,0.11892935){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bad\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{assumed_space.pdf}}%
+    \put(0.82463991,0.33569026){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bad\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{assumed_space.pdf}}%
+    \put(0.14824235,0.07289068){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bad\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{assumed_space.pdf}}%
+    \put(0.54182055,0.07300505){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bad\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{assumed_space.pdf}}%
+    \put(0.16234631,0.35790203){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bad\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{assumed_space.pdf}}%
+    \put(0.57300841,0.24703879){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bad\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
